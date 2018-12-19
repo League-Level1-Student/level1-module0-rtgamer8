@@ -15,6 +15,7 @@ import javax.swing.ImageIcon;
 import javax.swing.JApplet;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JPanel;
 
 public class DrumKit implements MouseListener {
 
@@ -37,9 +38,9 @@ public class DrumKit implements MouseListener {
 		// 4. Set the title of the frame
 
 		// 5. Make a JPanel variable and initialize it using "new JPanel().
-
+		JPanel panel = new JPanel();
 		// 6. Add the panel to the frame. (The panel is invisible.)
-
+		frame.add(panel);
 		// 7. Download an image of a drum from the Internet. Drop it into your Eclipse
 		// project under "default package".
 		// 8. Put the name of your image in a String variable.
